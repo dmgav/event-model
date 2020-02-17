@@ -32,7 +32,6 @@ class DocumentNames(Enum):
     bulk_datum = 'bulk_datum'  # deprecated
     bulk_events = 'bulk_events'  # deprecated
 
-
 class DocumentRouter:
     """
     Route each document by type to a corresponding method.
